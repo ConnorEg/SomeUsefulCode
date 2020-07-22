@@ -1,0 +1,1 @@
+Search-ADAccount -Server $MyDomain -Credential $Verifications -AccountExpired -UsersOnly -ResultPageSize 1600 -resultSetSize $null| Select-Object Name, AbrevAccName, UniqueName, AccExpDate
